@@ -22,18 +22,7 @@ sql = {
   public_network_access_enabled = true
 
 
-  firewall_rules = {
-    allow_azure_services = {
-      name     = "allow-azure-services"
-      start_ip = "0.0.0.0"
-      end_ip   = "0.0.0.0"
-    }
-    allow_specific_ip = {
-      name     = "allow-verification-ip"
-      start_ip = var.allowed_ip_address
-      end_ip   = var.allowed_ip_address
-    }
-  }
+  firewall_rules = {}
 
 
   db_sku_name       = "S2"
