@@ -39,7 +39,6 @@ output "sql_admin_password" {
   sensitive   = true
 }
 
-
 output "sql_connection_string" {
   description = "ADO.NET connection string for Azure SQL Database using SQL authentication."
   sensitive   = true
