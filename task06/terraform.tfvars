@@ -1,5 +1,5 @@
 name_prefix = "cmaz-2lfxdvp4-mod6"
-location    = "East US"
+location    = "eastus2"
 
 tags = {
   Creator = "giorgi_makharadze@epam.com"
